@@ -338,6 +338,10 @@ html .clearfix {
 	float: left;
 }
 
+#site-menu_contentwrapper {
+	height: 100%;
+}
+
 #site-menu h1 a, #site-menu h1 a:hover{
 	color: #f1f1f1;
 	text-align: center;
