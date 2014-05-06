@@ -1,0 +1,121 @@
+.op_wrapper h2 {
+	font-size: 25px;
+	font-family: "Segoe UI", "·L³n¥¿¶ÂÅé", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+	font-weight: 100;
+	padding: 0 10px 0 10px;
+}
+
+.op_content label {
+	font-size: 15px;
+	font-weight: 100;
+	width: 25%;
+	display: block;
+	float: left;
+}
+
+.op_input {
+	padding: 30px 10px;
+	border-top: 1px solid #ccc;
+}
+
+.op_input small {
+	display: block;
+	font-size: 1em;
+	width: 27%;
+	color: #777;
+}
+
+.upload_button {
+	display: inline-block;
+}
+
+.op_input input[type="text"], .op_input select {
+	width: 40%;
+	font-size: 15px;
+	padding: 6px;
+	margin: 0 15px;
+	color: #444;
+	line-height: 1em;
+	background: #F8F8F8;
+}
+
+.op_input input[type="checkbox"] {
+	margin-left: 5em;
+}
+
+.reset {
+	height: 40px;
+	font-size: 15px;
+	margin: 15px 30px 15px 0;
+	float: right;
+}
+
+form {
+	margin-bottom: 0em;
+}
+
+.save {
+	height: 40px;
+	font-size: 15px;
+	margin: 15px 30px 15px 0;
+	float: left;
+}
+
+.op_input input:focus, .op_input textarea:focus {
+	background: #fff;
+}
+
+.op_input textarea {
+	width: 40%;
+	height: 175px;
+	font-size: 15px;
+	padding: 6px;
+	color: #444;
+	line-height: 1.5em;
+	background: #F8F8F8;
+	margin: 0 15px;
+}
+
+.op_input h3 {
+	cursor: pointer;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: bold;
+	color: #232323;
+	float: left;
+	width: 80%;
+	padding: 14px 4px;
+}
+
+.section_title {
+	width: 95%;
+	background: #f1f1f1;
+	margin: 1em;
+	padding-top: 2em;
+}
+
+.section_title span {
+	font-size: 2.5em;
+	color: #0A9775;
+}
+
+.clear {
+	clear: both;
+}
+
+.upload_preview {
+	float: left;
+	font-size: 15px;
+	color: #777;
+	margin: 15px 0;
+}
+
+.up_img {
+	display: block;
+	max-width: 720px;
+	max-height: 460px;
+	width: auto;
+	height: auto;
+	margin: 1.5em auto;
+}
