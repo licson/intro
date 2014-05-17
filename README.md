@@ -1,4 +1,4 @@
-Intro (Version 1.2)
+Intro
 ====================
 
 ![Intro](http://store.licson.net/blog/intro.png)
@@ -8,6 +8,8 @@ Intro (Version 1.2)
 Intro is a refreshing theme and it looks green and comfortable. It's a two-column theme which is responsive
 and has unique features like AJAX page navigation and features a big banner image on every page. You can freely
 modify it to suit your needs.
+
+Here is the full introduction: <http://licson.net/post/intro-first-wordpress-theme/>
 
 License
 ==========
