@@ -4,7 +4,7 @@
  Description: Intro is a two-column theme that is clean and responsive. It has unique features like AJAX page navigations and custom scrollbars that can be enabled in the settings panel. Suitable for informational blogs and personal one. P.S. Ads are supported, too!
  Author: Licson
  Author URI: http://licson.net/
- Version: 1.2
+ Version: 1.21
  Tags: intro, green, dark, light, responsive, two-column, fluid, resume, AJAX, left-sidebar, featured-images, translation-ready
  License: GNU General Public License, v3 (or newer)
  License URI: http://www.gnu.org/licenses/gpl.html
@@ -85,7 +85,7 @@ cite, em, i {
 }
 
 blockquote {
-	font-family: Georgia, "Bitstream Charter", serif;
+	font-family: "Consolas", "Bitstream Charter", serif;
 	font-style: italic;
 	font-weight: normal;
 	margin: 0 3em;
@@ -494,6 +494,12 @@ html .clearfix {
 .entry-content ul {
 	list-style-type: square;
 	margin-left: 2.5em;
+}
+
+.entry-content ol {
+	list-style-type: decimal-leading-zero;
+	list-style-type: cjk-heavenly-stem !important;
+	margin-left: 3em;
 }
 
 .entry-content p {

@@ -23,7 +23,7 @@ function adsense_adder_at_more_tag($text) {
 		$pos2 = strpos($text, '</span>', $pos1);
 		$text1 = substr($text, 0, $pos2);
 		$text2 = substr($text, $pos2);
-		$text = $text1 . $ads_text . $text2;
+		$text = $text1 . stripslashes($ads_text) . $text2;
 	}
 	
 	return $text;

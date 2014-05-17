@@ -3,7 +3,7 @@
 			</div>
 		</div>
 	</div>
-	<?php echo get_option('intro_analytics'); ?>
+	<?php echo stripslashes(get_option('intro_analytics')); ?>
 	<?php wp_footer(); ?>
 	</body>
 </html>
