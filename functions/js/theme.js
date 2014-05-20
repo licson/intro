@@ -147,4 +147,8 @@ jQuery(function($){
 	$(window).on('resize', function(){
 		adjustSettings();
 	});
+
+	setInterval(function(){
+		fleXenv.updateScrollBars();
+	}, 1500);
 });

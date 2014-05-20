@@ -29,7 +29,10 @@
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<?php wp_head(); ?>
+		<?php
+			wp_enqueue_script('comment-reply');
+			wp_head();
+		?>
 	</head>
 	<body>
 		<div id="container">
